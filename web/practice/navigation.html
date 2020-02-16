@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>ナビゲーション練習用</title>
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap-grid.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md  navbar-light" style="background-color:pink;">
+      <a class="navbar-brand" href="/"><img src="images/webst8-logo.png" alt="WEBST8ロゴ"></a>
+      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#bs-navi" aria-controls="bs-navi" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="bs-navi">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#">ホーム</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              会社情報
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color:pink;">
+              <a class="dropdown-item" href="#">経営理念</a>
+              <a class="dropdown-item" href="#">会社概要</a>
+              <a class="dropdown-item" href="#">アクセス</a>
+              <a class="dropdown-item" href="#">採用情報</a>
+            </div>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#">お客様の声</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">ブログ</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">お問い合わせ</a></li>
+        </ul>
+      </div>
+    </nav>
+    <h1>ページネーション</h1>
+    <nav aria-label="Page Navigation">
+     <ul class="pagination">
+        <li class="page-item disabled">
+     <a  class="page-link" href="#" aria-label="Previous Page">
+     <span aria-hidden="true">&laquo;</span>
+     </a>
+     </li>
+        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item"><a class="page-link" href="#">4</a></li>
+        <li class="page-item"><a class="page-link" href="#">5</a></li>
+        <li class="page-item">
+     <a href="#"  class="page-link" aria-label="Next Page">
+     <span aria-hidden="true">&raquo;</span>
+     </a>
+     </li>
+     </ul>
+    </nav>
+    <script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="../js/bootstrap.bundle.js"></script>
+  </body>
+</html>

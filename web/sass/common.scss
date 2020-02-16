@@ -1,0 +1,41 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Sawarabi+Gothic&display=swap');
+
+$white: #fff;
+$black: #000;
+$red: #f00;
+$green: #0f0;
+$blue: #00f;
+
+
+.container-fluid{
+  background: {
+    image: url(../images/bg1.jpg);
+    size: cover;
+    attachment: fixed;
+  }
+}
+
+.title{
+  font: {
+    size: 3.5rem;
+    weight: bold;
+    family: 'Sawarabi Gothic', sans-serif;
+  }
+  color: rgba($blue,0.6);
+  padding: 1%;
+}
+
+.item{
+  z-index: 1;
+  padding: 2%;
+  background: {
+    color: rgba($white,0.6);
+  }
+  border-radius: 20px;
+}
+
+.item-title{
+  font-size: 2rem;
+  color: rgba($black,0.6);
+}

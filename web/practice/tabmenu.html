@@ -1,0 +1,50 @@
+../<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>練習用</title>
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap-grid.css">
+  </head>
+  <body>
+    <div class="container">
+      <h2>株式会社WEBST8の最新情報</h2>
+      <!-- 以下タブの表示設定 -->
+      <ul id="myTabs" class="nav nav-tabs">
+        <li role="presentation" class="active"><a href="#home"  aria-controls="home" role="tab" data-toggle="tab" class="nav-link active">最新ニュース</a>
+        </li>
+        <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab" class="nav-link">セミナー情報</a></li>
+        <li role="presentation"><a href="#message" aria-controls="message" role="tab" data-toggle="tab" class="nav-link">メディア掲載歴</a></li>
+      </ul>
+
+      <!-- Tab panes(以下、タブを押したときに表示する中身) -->
+      <div class="tab-content p-2 ">
+        <div role="tabpanel" class="tab-pane active fade show" id="home">
+          <h3>SEO実績更新</h3>
+          <p>ウェブストエイトが「ホームページ作成セミナー」でSEO一位を獲得しました。(2017年9月調べ)</p>
+        </div>
+        <div role="tabpanel" class="tab-pane fade" id="profile">
+          <h3>2018年1月のセミナー情報</h3>
+          <p>
+            2018年1月20日にワードプレスセミナーを開催します。
+            <br>
+            詳細は下記のページをご覧ください。
+          </p>
+        </div>
+        <div role="tabpanel" class="tab-pane fade" id="message">
+          <h3>〇〇新聞に掲載されました</h3>
+          <p>
+            ウェブストエイトが〇〇新聞に掲載されました。
+            <br>
+            詳細はこちらをご覧ください。
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="../js/bootstrap.bundle.js"></script>
+  </body>
+</html>
